@@ -4,8 +4,6 @@ const path=require('path');
 const app=express();
 connectDB();
 
-
-
 //Init middleware
 app.use(express.json({extended:false}));
 
